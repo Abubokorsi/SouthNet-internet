@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SouthNET</title>
+    <!-- favicon-icon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- bootstrap-css -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <!-- ico-font -->
+    <link rel="stylesheet" href="icofont/icofont.min.css" />
+    <!-- custom-css -->
+    <link rel="stylesheet" href="custom css/coverage.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="images/white-logo.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="offers.html"
+                  type="button"
+                  class="btn btn-outline-light"
+                >
+                  Offers <span class="badge text-danger">4</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="coverage.html">Coverage</a>
+              </li>
+              <li class="nav-item">
+                <a href="pay-Bill.html" class="nav-link">Pay Bill</a>
+              </li>
+            </ul>
+            <form class="d-flex ml-3">
+              <div class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="icofont-sun-alt"></i
+                  ><i class="icofont-duotone icofont-dark-mode"></i
+                ></a>
+              </div>
+              <div class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </div>
+              <div class="nav-item">
+                <a
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Selfcare
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Selfcare</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="mb-4">
+                <label for="">Email</label>
+                <input type="email" class="form-control" />
+              </div>
+              <div class="mb-4">
+                <label for="">Password</label>
+                <input type="password" class="form-control" />
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-success">login US</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header end -->
+    <!-- coverage banner start -->
+    <section class="banner-section p-5">
+      <div class="container p-5 text-center">
+        <h1>Coverage area</h1>
+        <p>
+          South Net coverage area is wide. Dot Internet is spread almost
+          everywhere in Dhaka city. Check the availability of all coverage areas
+          in Dhaka.
+        </p>
+        <a class="btn btn-success btn-lg" href="#"> Get connection Now</a>
+      </div>
+    </section>
+    <!-- coverage banner end -->
+    <!-- search section start -->
+    <section class="search-section">
+      <div class="container p-5">
+        <div class="search">
+          <div class="row justify-content-between">
+            <div class="col-lg-9 p-5">
+              <input
+                type="submit"
+                class="input-search"
+                placeholder="Search Places"
+              /><input type="text" class="typeing" placeholder="Type Here" />
+            </div>
+            <div class="col-lg-2">
+              <img
+                class="img-fluid"
+                src="images/location-route-white.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- search section end -->
+    <!-- area section start -->
+    <section class="area-section p-5">
+      <div class="container">
+        <div class="row p-5">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button bg-secondary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <div class="row">
+                    <div class="col-lg-2 pt-4">
+                      <i class="icofont-location-pin accordio-icon"></i>
+                    </div>
+                    <div class="col-lg-10">
+                      <h1 class="text-white">Dhaka</h1>
+                      <p class="text-white heading-accordion">
+                        Check the available area for the Dhaka Region
+                      </p>
+                    </div>
+                  </div>
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Adabor
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Badda
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Bangshal
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Biman Bandar
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Banani
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Chak Bazar
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Dakshin Khan
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Darus Salam
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Dhanmondi
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i>
+                          Bhatara
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Gulshan
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Hazaribagh
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Kala Bagan
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Kamrangir Char
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Khilgaon
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Keraniganj
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Lalbagh
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Mirpur
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Mohammadpur
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i>New
+                          Market
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Pallabi
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Paltan
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Ramna
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Rampura
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Rupnagar
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Shahjahanpur
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Shah Ali
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Shahbagh
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Sher-e-Bangla
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Tejgaon
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Tejgaon Ind. Area
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Uttara
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row p-5">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button bg-secondary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTow"
+                  aria-expanded="true"
+                  aria-controls="collapseTow"
+                >
+                  <div class="row">
+                    <div class="col-lg-2 pt-4">
+                      <i class="icofont-location-pin accordio-icon"></i>
+                    </div>
+                    <div class="col-lg-10">
+                      <h1 class="text-white">Brahman Baria</h1>
+                      <p class="text-white heading-accordion">
+                        Check the available area for the B-baria Region
+                      </p>
+                    </div>
+                  </div>
+                </button>
+              </h2>
+              <div
+                id="collapseTow"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Adabor
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Badda
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Bangshal
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Biman Bandar
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Banani
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Chak Bazar
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Dakshin Khan
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Darus Salam
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Dhanmondi
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i>
+                          Bhatara
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Gulshan
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Hazaribagh
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i>
+                          Ramna
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Lalbagh
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Paltan
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="area">
+                        <p>
+                          <i class="icofont-location-pin accordion-icon"></i
+                          >Tejgaon
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- area section end -->
+    <!-- footer section start -->
+    <section class="footer-section p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-sm-4 px-5">
+            <p>COMPANY</p>
+            <a href="">About us</a><a href="">Pricing</a
+            ><a href="">Coverage area</a><a href="">Bill Payment</a>
+          </div>
+          <div class="col-lg-2 col-sm-4 px-5">
+            <p>QUICK LINKS</p>
+            <a href="">Join Group</a><a href="">Like our Page</a>
+          </div>
+          <div class="col-lg-2 col-sm-4 px-5">
+            <p>SUPPORT</p>
+            <a href="">How to Pay</a><a href="">Self-care</a
+            ><a href="">Articles</a><a href="">Contact us</a>
+          </div>
+          <div class="col-lg-2 col-sm-4 px-5">
+            <p>LEGAL</p>
+            <a href="">Terms & Conditions</a><a href="">Privacy Policy</a
+            ><a href="">Return & Refund</a><a href="">BTRC Approved Tarrif</a>
+          </div>
+          <div class="col-lg-4 col-sm-8 px-2">
+            <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
+            <p>
+              The latest news, articles, and resources, sent to your inbox
+              weekly.
+            </p>
+            <div class="row">
+              <div class="col-lg-9">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter Your Emaill"
+                />
+              </div>
+              <div class="col-lg-3">
+                <input type="submit" value="Subscribe" class="form-control" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-sm-12">
+            <img
+              class="img-fluid my-4"
+              src="images/sslcommerz-foo (1).png"
+              alt="sss"
+            />
+          </div>
+        </div>
+        <div class="row justify-content-between coppyright">
+          <div class="col-lg-10 col-sm-10">
+            <p>© southNet 2023. All rights reserved.</p>
+          </div>
+          <div class="col-lg-2 col-sm-2">
+            <i class="icofont-facebook"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section end -->
+
+    <!-- bootstrap js  -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery link -->
+    <script src="jquery/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <!-- custom js-->
+    <script src="custom-js/custom.js"></script>
+  </body>
+</html>

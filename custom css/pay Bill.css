@@ -1,0 +1,118 @@
+/* basic start */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #07030e;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* basic end */
+/* header start */
+.navbar {
+  background-color: #00204f;
+}
+.navbar-brand img {
+  width: 150px;
+}
+.nav-item {
+  margin: 15px;
+  font-weight: bold;
+}
+.nav-link {
+  color: white;
+}
+.icofont-sun-alt {
+  font-size: 30px;
+  margin-right: 10px;
+  display: block;
+}
+.icofont-dark-mode {
+  font-size: 30px;
+  display: none;
+}
+
+/* header end */
+/* banner start */
+.banner-section {
+  background-image: url("../images/pay-bill.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.banner-section h1 {
+  width: 500px;
+  margin: 20px;
+  margin: auto;
+}
+.banner-section p {
+  width: 750px;
+  margin: auto;
+}
+/* banner section end */
+/* payment start */
+.payment-section {
+  color: white;
+}
+.payment-section p {
+  font-size: 19px;
+  margin: 20px 5px;
+}
+.payment-section p i {
+  font-size: 25px;
+  color: white;
+  background-color: rgb(216, 15, 15);
+  border-radius: 50%;
+  margin-right: 20px;
+  padding: 8px;
+}
+/* payment end */
+/* visa card start */
+.visa {
+  background-color: #182333;
+  border-radius: 15px;
+  padding: 40px;
+  color: white;
+}
+.visa h2 {
+  margin: 20px 0px;
+}
+/* visa card end */
+/* bank section start */
+
+.bank {
+  background-color: #182333;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+}
+/* bank section end */
+/* footer section start */
+.footer-section {
+  background-color: rgba(44, 40, 40, 0.87);
+  color: white;
+}
+.footer-section a {
+  color: white;
+}
+.coppyright {
+  background-color: rgb(2, 1, 49);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.coppyright i {
+  font-size: 40px;
+  color: blue;
+  background-color: white;
+  border-radius: 50%;
+}
+/* footer section end */

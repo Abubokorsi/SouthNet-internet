@@ -1,0 +1,107 @@
+/* basic start */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #07030e;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* basic end */
+/* header start */
+.navbar {
+  background-color: #00204f;
+}
+.navbar-brand img {
+  width: 150px;
+}
+.nav-item {
+  margin: 15px;
+  font-weight: bold;
+}
+.nav-link {
+  color: white;
+}
+.icofont-sun-alt {
+  font-size: 30px;
+  margin-right: 10px;
+  display: block;
+}
+.icofont-dark-mode {
+  font-size: 30px;
+  display: none;
+}
+
+/* header end */
+/* banner section start */
+.banner-section {
+  background-image: url("../images/about-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.banner-section p {
+  width: 60%;
+  margin: auto;
+}
+/* banner section end */
+/* blog start */
+.blog-section {
+  color: white;
+}
+.blog-section p,
+h1 {
+  margin: 20px 0px;
+}
+.blog-section img {
+  width: 580px;
+  height: 336px;
+}
+/* blog end */
+/* client section start */
+.clients-section {
+  color: white;
+  background-color: #202f46;
+}
+.clients-logo {
+  width: 120%;
+  padding: 30px;
+  border-radius: 15px;
+}
+.clients-logo img {
+  width: 100%;
+}
+.clinent-img {
+  height: 47px;
+}
+
+/* client section end */
+/* footer section start */
+.footer-section {
+  background-color: rgba(44, 40, 40, 0.87);
+  color: white;
+}
+.footer-section a {
+  color: white;
+}
+.coppyright {
+  background-color: rgb(2, 1, 49);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.coppyright i {
+  font-size: 40px;
+  color: blue;
+  background-color: white;
+  border-radius: 50%;
+}
+/* footer section end */

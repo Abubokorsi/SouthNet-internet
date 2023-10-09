@@ -1,0 +1,102 @@
+/* basic start */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #07030e;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* basic end */
+/* header start */
+.navbar {
+  background-color: #00204f;
+}
+.navbar-brand img {
+  width: 150px;
+}
+.nav-item {
+  margin: 15px;
+  font-weight: bold;
+}
+.nav-link {
+  color: white;
+}
+.icofont-sun-alt {
+  font-size: 30px;
+  margin-right: 10px;
+  display: block;
+}
+.icofont-dark-mode {
+  font-size: 30px;
+  display: none;
+}
+
+/* header end */
+/* banner start */
+.banner-section {
+  background-image: url("../images/contact-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.banner-section h1 {
+  width: 60%;
+  margin: 20px;
+  margin: auto;
+}
+.banner-section p {
+  width: 75%;
+  margin: auto;
+}
+/* banner section end */
+/* contact section start */
+.contact-section {
+  background-color: #00204f;
+  color: white;
+}
+.contact-form {
+  width: 60%;
+  background-color: black;
+  padding: 50px;
+  margin: auto;
+  border-radius: 15px;
+}
+.contact-form input {
+  background-color: black;
+  padding: 15px;
+}
+.contact-form textarea {
+  background-color: black;
+}
+/* contact section end */
+
+/* footer section end*/
+.footer-section {
+  background-color: rgba(44, 40, 40, 0.87);
+  color: white;
+}
+.footer-section a {
+  color: white;
+}
+.coppyright {
+  background-color: rgb(2, 1, 49);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.coppyright i {
+  font-size: 40px;
+  color: blue;
+  background-color: white;
+  border-radius: 50%;
+}
+/* footer section end */
